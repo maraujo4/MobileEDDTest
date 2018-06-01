@@ -46,7 +46,7 @@ namespace MyTest.Pages
         {
             try
             {                
-                m_lableMergeResult.Text = $"{m_entryFirstName.Text} {m_entryLasttName.Text}";
+                m_lableMergeResult.Text = $"{m_entryFirstName.Text} {m_entryLasttName.Text} !";
             }
             catch (Exception ex)
             {

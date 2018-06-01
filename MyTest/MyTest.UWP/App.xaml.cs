@@ -14,6 +14,9 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+
 
 namespace MyTest.UWP
 {
@@ -30,6 +33,7 @@ namespace MyTest.UWP
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            AppCenter.Start("9f26981d-c7d1-4712-854e-5ac160e877e5", typeof(Analytics));            
         }
 
         /// <summary>
