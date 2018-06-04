@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "aa5f22d04c1c48fa228d2cef66fe48177e06d299"
+    "signature": "62abb48e4ea31502d82b7792e08a8f104f3c1d58"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "MyTest/1.0.0": {
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "NETStandard.Library": "2.0.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
@@ -28,6 +29,14 @@
         },
         "runtime": {
           "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
@@ -64,6 +73,13 @@
       "sha512": "sha512-KWwIMJJjpu7gcElpXx+xe0aa+szbtE6DeW82e6qBRZY1BwKh3OMxjP5I0Yh/beeigVOsOW0MBaR6Bnyr2zG7gg==",
       "path": "microsoft.appcenter.analytics/1.6.1",
       "hashPath": "microsoft.appcenter.analytics.1.6.1.nupkg.sha512"
+    },
+    "Microsoft.AppCenter.Crashes/1.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2K/ZwzBDRB5xevOPu1bNJ7f0GWGidCk8HSGC2eRhQp0Ry06/HNCbSa/b6KXLVjzTRt5Hn7f9nIEeoQ9i9PzMTg==",
+      "path": "microsoft.appcenter.crashes/1.6.1",
+      "hashPath": "microsoft.appcenter.crashes.1.6.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",

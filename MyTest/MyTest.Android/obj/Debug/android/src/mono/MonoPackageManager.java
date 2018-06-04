@@ -111,6 +111,8 @@ class MonoPackageManager_Resources {
 		"Microsoft.AppCenter.Analytics.Android.Bindings.dll",
 		"Microsoft.AppCenter.Analytics.dll",
 		"Microsoft.AppCenter.Android.Bindings.dll",
+		"Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+		"Microsoft.AppCenter.Crashes.dll",
 		"Microsoft.AppCenter.dll",
 		"MyTest.dll",
 		"Xamarin.Android.Support.Animated.Vector.Drawable.dll",

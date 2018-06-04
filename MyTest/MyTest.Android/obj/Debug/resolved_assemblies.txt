@@ -4,6 +4,8 @@ C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\ass
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.Analytics.Android.Bindings.dll
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.Analytics.dll
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.Android.Bindings.dll
+C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.Crashes.Android.Bindings.dll
+C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.Crashes.dll
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Microsoft.AppCenter.dll
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\android\assets\mscorlib.dll

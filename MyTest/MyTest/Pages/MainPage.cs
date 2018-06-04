@@ -13,19 +13,25 @@ namespace MyTest.Pages
         public Label m_lableMergeResult = new Label();
         public MainPage()
         {
+            m_entryFirstName.AutomationId = "entryFirstName";
+            m_entryLasttName.AutomationId = "entryLasttName";
+            m_lableMergeResult.AutomationId = "lableMergeResult";
             Label labelFirstName = new Label
             {
-                Text = "First Name"
+                Text = "First Name",
+                AutomationId = "labelFirstName"
             };
 
             Label labelLastName = new Label
             {
-                Text = "Last Name"
+                Text = "Last Name",
+                AutomationId = "labelLastName"
             };
 
             m_buttonConcatNames = new Button
             {
-                Text = "Click me!"
+                Text = "Click me!",
+                AutomationId = "buttonConcatNames"
             };
             m_buttonConcatNames.Clicked += M_buttonConcatNames_Clicked;
             Content = new StackLayout

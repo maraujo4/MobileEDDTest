@@ -28,6 +28,59 @@
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
         }
       },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {
+            "assetType": "runtime",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd": {
+            "assetType": "runtime",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-arm"
+          },
+          "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {
+            "assetType": "runtime",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd": {
+            "assetType": "runtime",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x64"
+          },
+          "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {
+            "assetType": "runtime",
+            "rid": "win10-x86"
+          },
+          "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd": {
+            "assetType": "runtime",
+            "rid": "win10-x86"
+          },
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {
+            "assetType": "native",
+            "rid": "win10-x86"
+          }
+        }
+      },
       "Microsoft.Net.Native.Compiler/2.0.0": {
         "type": "package",
         "dependencies": {
@@ -388,6 +441,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -423,6 +477,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -948,6 +1021,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -983,6 +1057,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-arm/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -1509,6 +1602,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -1544,6 +1638,21 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -1892,6 +2001,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -1927,6 +2037,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -2452,6 +2581,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -2487,6 +2617,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x64/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -3013,6 +3162,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -3048,6 +3198,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -3573,6 +3742,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -3608,6 +3778,25 @@
         },
         "runtime": {
           "lib/uap10.0/Microsoft.AppCenter.Analytics.dll": {}
+        }
+      },
+      "Microsoft.AppCenter.Crashes/1.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AppCenter": "1.6.1"
+        },
+        "compile": {
+          "ref/uap10.0/Microsoft.AppCenter.Crashes.dll": {}
+        },
+        "runtime": {
+          "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll": {},
+          "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd": {}
+        },
+        "native": {
+          "runtimes/win10-x86/native/WatsonRegistrationUtility.dll": {}
+        },
+        "build": {
+          "build/uap10.0/_._": {}
         }
       },
       "Microsoft.Net.Native.Compiler/2.0.0": {
@@ -4134,6 +4323,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AppCenter.Analytics": "1.6.1",
+          "Microsoft.AppCenter.Crashes": "1.6.1",
           "Xamarin.Forms": "2.5.0.280555"
         },
         "compile": {
@@ -4178,6 +4368,33 @@
         "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
         "microsoft.appcenter.analytics.1.6.1.nupkg.sha512",
         "microsoft.appcenter.analytics.nuspec"
+      ]
+    },
+    "Microsoft.AppCenter.Crashes/1.6.1": {
+      "sha512": "2K/ZwzBDRB5xevOPu1bNJ7f0GWGidCk8HSGC2eRhQp0Ry06/HNCbSa/b6KXLVjzTRt5Hn7f9nIEeoQ9i9PzMTg==",
+      "type": "package",
+      "path": "microsoft.appcenter.crashes/1.6.1",
+      "files": [
+        ".signature.p7s",
+        "build/uap10.0/Microsoft.AppCenter.Crashes.targets",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.Android.Bindings.dll",
+        "lib/MonoAndroid403/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll",
+        "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.iOS.Bindings.dll",
+        "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/portable-net45+win8+wpa81+wp8/Microsoft.AppCenter.Crashes.dll",
+        "microsoft.appcenter.crashes.1.6.1.nupkg.sha512",
+        "microsoft.appcenter.crashes.nuspec",
+        "ref/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-arm/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-arm/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x64/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x64/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x64/native/WatsonRegistrationUtility.dll",
+        "runtimes/win10-x86/lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
+        "runtimes/win10-x86/lib/uap10.0/WatsonRegistrationUtility.winmd",
+        "runtimes/win10-x86/native/WatsonRegistrationUtility.dll"
       ]
     },
     "Microsoft.Net.Native.Compiler/2.0.0": {

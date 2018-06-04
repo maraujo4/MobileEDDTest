@@ -14,6 +14,7 @@
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\23\jl\bin\classes.jar</Jar>
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\25\jl\bin\classes.jar</Jar>
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\3\jl\bin\classes.jar</Jar>
+    <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\30\jl\bin\classes.jar</Jar>
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\4\jl\support-annotations.jar</Jar>
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\5\jl\bin\classes.jar</Jar>
     <Jar>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\6\jl\bin\classes.jar</Jar>
@@ -23,6 +24,7 @@
   </Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\24\jl\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\31\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\26\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\8\jl\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\11\jl\res</ResolvedResourceDirectory>
@@ -34,12 +36,14 @@
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Debug\lp\24\jl\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\lp\31\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\26\jl\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\lp\12\jl\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
     <ResolvedResourceDirectoryStamp>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\24.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\31.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\8.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.Android\obj\Debug\lp\11.stamp</ResolvedResourceDirectoryStamp>

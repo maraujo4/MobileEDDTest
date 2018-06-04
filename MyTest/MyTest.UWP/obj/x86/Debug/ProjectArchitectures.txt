@@ -1,0 +1,1 @@
+C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest.UWP\MyTest.UWP.csproj;x86

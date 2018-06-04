@@ -28,3 +28,5 @@ Microsoft.AppCenter
 netstandard
 System.ComponentModel
 System.Reflection.Extensions
+Microsoft.AppCenter.Crashes.Android.Bindings
+Microsoft.AppCenter.Crashes
