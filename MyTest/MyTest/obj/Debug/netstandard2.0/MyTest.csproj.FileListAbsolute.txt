@@ -3,7 +3,6 @@ C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\bin\Debug\netstandard2.0\MyTe
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.csprojAssemblyReference.cache
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.csproj.CoreCompileInputs.cache
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.App.xaml.g.cs
-C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.MainPage.xaml.g.cs
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.AssemblyInfoInputs.cache
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\obj\Debug\netstandard2.0\MyTest.AssemblyInfo.cs
 C:\github\Source\Repos\MobileEDDTest\MyTest\MyTest\bin\Debug\netstandard2.0\MyTest.pdb

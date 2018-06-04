@@ -43,8 +43,20 @@ namespace UITestMyTest
             //Act
             app.Tap("buttonConcatNames");
             //Assert
-            var result = app.Query("lableMergeResult").First(oo => oo.Text == "It Works!");
+            var result = app.Query("lableMergeResult").FirstOrDefault(oo => oo.Text == "It Works!");
             Assert.IsTrue(result != null, "not the expected concatenation of names");
         }
-	}
+
+        public void ButtonConcatNamesClickedEmptyEntries_UITest()
+        {
+            //Arrange
+            //app.EnterText("entryFirstName", "It");
+            //app.EnterText("entryLasttName", "Works");
+            //Act
+            app.Tap("buttonConcatNames");
+            //Assert
+            var result = app.Query("lableMergeResult").FirstOrDefault(oo => oo.Text == "!");
+            Assert.IsTrue(result != null, "not the expected concatenation of names");
+        }
+    }
 }
